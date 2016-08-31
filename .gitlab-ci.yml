@@ -1,0 +1,8 @@
+image: ubuntu:14.04
+
+before_script:
+    - apt-get update
+
+compile:
+    script:
+    - echo "YAHOO"
