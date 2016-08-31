@@ -2,8 +2,8 @@ image: ubuntu:14.04
 
 before_script:
     - apt-get update
-    - apt-get install python
-    - apt-get install python-pip
+    - apt-get install -y python
+    - apt-get install -y python-pip
 
 yahoo:
     script:
