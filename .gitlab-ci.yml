@@ -2,7 +2,14 @@ image: ubuntu:14.04
 
 before_script:
     - apt-get update
+    - apt-get install python
+    - apt-get install python-pip
 
-compile:
+yahoo:
     script:
     - echo "YAHOO"
+
+hallo:
+    script:
+    - pip install -r -U requirenments.txt
+    - python hello_world.py
