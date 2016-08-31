@@ -11,5 +11,5 @@ yahoo:
 
 hallo:
     script:
-    - pip install -r requirenments.txt
+            - pip install -U -r requirenments.txt
     - python hello_world.py
